@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: hello-service
+  cloud:
+    consul:
+      discovery:
+        instanceId: ${spring.application.name}:${server.port}:${random.value}
+      host: consul
+      port: 8500
+
+server:
+  port: 8081
+  
+ 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+ 
+logging.level:
+    org.springframework.cloud:
+      consul: DEBUG
