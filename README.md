@@ -12,4 +12,4 @@
 
 # Insights:
 - After successful start-up, a request on `http://localhost:8080/api/hello` is dispatched to the service `hello-service` at `http://localhost:8081/greet`.
-- Similarily, a request on `http://localhost:8080/api/bye` is dispatched to the service `bye-service` at `http://localhost:8082/greet`
+- Similarily, a request on `http://localhost:8080/api/bye` is dispatched to the service `bye-service` at `http://localhost:8082/greet`.
