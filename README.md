@@ -1,5 +1,5 @@
 # camel-springboot-demo
-`A demo Spring Boot project using Apache Camel as an API Gateway & Consul for Service Discovery.`
+`A demo Spring Boot microservices project using Apache Camel as an API Gateway & Consul for Service Discovery.`
 
 ## Steps:
 - Ensure `Java JDK >= 11`, `Maven` & `Docker` is installed in your system.
