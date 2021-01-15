@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bye-service
+  cloud:
+    consul:
+      host: consul
+      port: 8500
